@@ -39,10 +39,5 @@ export default function BookDetails(props) {
 
   console.log(bookId);
 
-  return (
-    <div id="book-details">
-      <p>book details here</p>
-      {details}
-    </div>
-  );
+  return <div id="book-details">{details}</div>;
 }
